@@ -7,16 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1661FA239075CE00523E6B /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE1661F3239075CD00523E6B /* D.wav */; };
+		CE1661FB239075CE00523E6B /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE1661F4239075CD00523E6B /* C.wav */; };
+		CE1661FC239075CE00523E6B /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE1661F5239075CD00523E6B /* E.wav */; };
+		CE1661FD239075CE00523E6B /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE1661F6239075CD00523E6B /* G.wav */; };
+		CE1661FE239075CE00523E6B /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE1661F7239075CD00523E6B /* A.wav */; };
+		CE1661FF239075CE00523E6B /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE1661F8239075CE00523E6B /* F.wav */; };
+		CE166200239075CE00523E6B /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE1661F9239075CE00523E6B /* B.wav */; };
 		CE4D9265237E477F009DB30D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4D9264237E477F009DB30D /* AppDelegate.swift */; };
 		CE4D9267237E477F009DB30D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4D9266237E477F009DB30D /* SceneDelegate.swift */; };
 		CE4D9269237E477F009DB30D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4D9268237E477F009DB30D /* ViewController.swift */; };
 		CE4D926C237E477F009DB30D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4D926A237E477F009DB30D /* Main.storyboard */; };
 		CE4D926E237E4781009DB30D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4D926D237E4781009DB30D /* Assets.xcassets */; };
 		CE4D9271237E4781009DB30D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4D926F237E4781009DB30D /* LaunchScreen.storyboard */; };
+		CE4D927D237E4C58009DB30D /* AppLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4D927C237E4C58009DB30D /* AppLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CE4D9261237E477F009DB30D /* App Kara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Kara.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1661F3239075CD00523E6B /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		CE1661F4239075CD00523E6B /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		CE1661F5239075CD00523E6B /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		CE1661F6239075CD00523E6B /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		CE1661F7239075CD00523E6B /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		CE1661F8239075CE00523E6B /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		CE1661F9239075CE00523E6B /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		CE4D9261237E477F009DB30D /* Letter Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Letter Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4D9264237E477F009DB30D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE4D9266237E477F009DB30D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CE4D9268237E477F009DB30D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +39,8 @@
 		CE4D926D237E4781009DB30D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE4D9270237E4781009DB30D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE4D9272237E4781009DB30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4D927C237E4C58009DB30D /* AppLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLogic.swift; sourceTree = "<group>"; };
+		CE4D927E237F0269009DB30D /* Kara's App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Kara's App.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +54,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE1661F2239075C000523E6B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				CE1661F7239075CD00523E6B /* A.wav */,
+				CE1661F9239075CE00523E6B /* B.wav */,
+				CE1661F4239075CD00523E6B /* C.wav */,
+				CE1661F3239075CD00523E6B /* D.wav */,
+				CE1661F5239075CD00523E6B /* E.wav */,
+				CE1661F8239075CE00523E6B /* F.wav */,
+				CE1661F6239075CD00523E6B /* G.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		CE4D9258237E477F009DB30D = {
 			isa = PBXGroup;
 			children = (
@@ -48,7 +79,7 @@
 		CE4D9262237E477F009DB30D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE4D9261237E477F009DB30D /* App Kara.app */,
+				CE4D9261237E477F009DB30D /* Letter Practice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +87,42 @@
 		CE4D9263237E477F009DB30D /* App Kara */ = {
 			isa = PBXGroup;
 			children = (
+				CE4D927E237F0269009DB30D /* Kara's App.entitlements */,
 				CE4D9264237E477F009DB30D /* AppDelegate.swift */,
 				CE4D9266237E477F009DB30D /* SceneDelegate.swift */,
-				CE4D9268237E477F009DB30D /* ViewController.swift */,
-				CE4D926A237E477F009DB30D /* Main.storyboard */,
+				CE4D927B237E4B47009DB30D /* Model */,
+				CE4D9278237E4B19009DB30D /* View */,
+				CE4D9279237E4B26009DB30D /* Controller */,
 				CE4D926D237E4781009DB30D /* Assets.xcassets */,
+				CE1661F2239075C000523E6B /* Sounds */,
 				CE4D926F237E4781009DB30D /* LaunchScreen.storyboard */,
 				CE4D9272237E4781009DB30D /* Info.plist */,
 			);
 			path = "App Kara";
+			sourceTree = "<group>";
+		};
+		CE4D9278237E4B19009DB30D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE4D926A237E477F009DB30D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE4D9279237E4B26009DB30D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE4D9268237E477F009DB30D /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE4D927B237E4B47009DB30D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE4D927C237E4C58009DB30D /* AppLogic.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +142,7 @@
 			);
 			name = "App Kara";
 			productName = "App Kara";
-			productReference = CE4D9261237E477F009DB30D /* App Kara.app */;
+			productReference = CE4D9261237E477F009DB30D /* Letter Practice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,9 +183,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1661FC239075CE00523E6B /* E.wav in Resources */,
+				CE166200239075CE00523E6B /* B.wav in Resources */,
 				CE4D9271237E4781009DB30D /* LaunchScreen.storyboard in Resources */,
+				CE1661FE239075CE00523E6B /* A.wav in Resources */,
+				CE1661FF239075CE00523E6B /* F.wav in Resources */,
+				CE1661FA239075CE00523E6B /* D.wav in Resources */,
 				CE4D926E237E4781009DB30D /* Assets.xcassets in Resources */,
+				CE1661FD239075CE00523E6B /* G.wav in Resources */,
 				CE4D926C237E477F009DB30D /* Main.storyboard in Resources */,
+				CE1661FB239075CE00523E6B /* C.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4D927D237E4C58009DB30D /* AppLogic.swift in Sources */,
 				CE4D9269237E477F009DB30D /* ViewController.swift in Sources */,
 				CE4D9265237E477F009DB30D /* AppDelegate.swift in Sources */,
 				CE4D9267237E477F009DB30D /* SceneDelegate.swift in Sources */,
@@ -284,15 +350,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "App Kara/Kara's App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = FDRU95T87Y;
 				INFOPLIST_FILE = "App Kara/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zacharyzak.App-Kara";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Letter Practice";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,15 +372,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "App Kara/Kara's App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = FDRU95T87Y;
 				INFOPLIST_FILE = "App Kara/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zacharyzak.App-Kara";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Letter Practice";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
