@@ -14,13 +14,15 @@ class ViewController: UIViewController {
     var al = AppLogic()
     var player: AVAudioPlayer?
     
+    let synth = AVSpeechSynthesizer()
+    var myUtterance = AVSpeechUtterance(string: "")
+    
     @IBOutlet weak var segmentSelector: UISegmentedControl!
     @IBOutlet weak var mainLabel: UILabel!
     @IBOutlet weak var shuffleButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func segmentChanged(_ sender: UISegmentedControl) {
@@ -37,8 +39,16 @@ class ViewController: UIViewController {
     
     func updateUI() {
         mainLabel.text = al.getLabelText()
+        let textToRead = mainLabel.text?.lowercased()
+        read(textToRead!)
         mainLabel.textColor = al.getColor()
         shuffleButton.backgroundColor = al.getColor()
+    }
+    
+    func read(_ text: String) {
+        myUtterance = AVSpeechUtterance(string: text)
+        myUtterance.rate = 0.3
+        synth.speak(myUtterance)
     }
     
     func playSound(soundName: String) {
