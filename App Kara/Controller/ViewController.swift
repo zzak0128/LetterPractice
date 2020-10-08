@@ -46,8 +46,10 @@ class ViewController: UIViewController {
     }
     
     func read(_ text: String) {
+        let boundary = AVSpeechBoundary.immediate
+        synth.stopSpeaking(at: boundary)
         myUtterance = AVSpeechUtterance(string: text)
-        myUtterance.rate = 0.3
+        myUtterance.rate = 0.4
         synth.speak(myUtterance)
     }
     
